@@ -134,9 +134,7 @@ namespace Lab11
             }
             Console.WriteLine();
        
-            Reflector<Person>.Invoke(person,"Eat");
-            Console.WriteLine();
-            Console.WriteLine($"{Reflector<Person>.Create(person)}");
+            
        
 
 
